@@ -1,0 +1,178 @@
+@import url("../node_modules/primeicons/primeicons.css");
+@import url("../node_modules/primeng/resources/themes/saga-orange/theme.css");
+@import url("../node_modules/primeng/resources/primeng.min.css");
+
+/* Importing Bootstrap SCSS file. */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/* Importing Datepicker SCSS file. */
+@import "~ngx-bootstrap/datepicker/bs-datepicker";
+.btn{
+  font-size: 13px;
+}
+body,.p-component{
+  font-size:13px !important;
+
+}
+.p-component{
+  font-size: 13px;
+}
+.p-datatable.p-datatable-sm .p-datatable-tbody > tr > td {
+  padding: 0rem 0.5rem !important;
+}
+.pi {
+  font-size: 0.6666rem !important;
+}
+.grid-top-panel{
+  text-align:right !important;
+}
+.grid-top-panel ul{
+  text-align:right !important;
+}
+.grid-top-panel ul li{
+  display: inline-block;
+  list-style: none;
+}
+.top-panel-left{
+  text-align:left !important;
+}
+.top-panel-left ul{
+  text-align: left !important;
+  margin: 0;
+  padding: 0;
+}
+form.example input[type=text] {
+  padding: 2px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: #f8f9fa;
+}
+.top-panel-left ul li{
+  display: inline-block;
+  list-style: none;
+}
+.top-panel-left ul li.search-top{
+  width:50%;
+}
+.btn{
+  padding: 0rem 0.45rem !important;
+  font-size: 14px !important;
+}
+.modal-title {
+  margin-bottom: 0;
+  line-height: normal;
+  font-size: 14px;
+}
+.modal-header{
+  padding: 0.5rem 1rem !important;
+}
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0.2rem 1rem;
+}
+.modal-footer{
+  padding: .25rem;
+}
+.p-datatable .p-datatable-tbody > tr > td {
+  text-align: left;
+  border: 1px solid #dee2e6;
+  border-width: 1px 0 0 0 ;
+  padding: 0.3rem 1rem !important;
+}
+.p-datatable .p-datatable-thead > tr > th {
+  padding: 0.41rem 1rem !important;
+}
+.p-paginator {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end !important;
+  flex-wrap: wrap;
+}
+.nav-menu{
+   margin-top:5px;
+}
+.column-selector{
+  margin: 0;
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+}
+.filter-title h3{
+  font-size: 14px;
+}
+.column-selector li{
+  list-style: none;
+    background: #f2f2f2;
+    margin-right: 5px;
+    padding: 6px;
+    margin-top: 5px;
+}
+.search-column input{
+  width: 85% !important;
+}
+.border-whole{
+
+  min-height: 500px;
+}
+.border-whole-left{
+  min-height: 500px;
+  border: 1px solid #ddd;
+  position: relative;
+  padding: 0px 10px;
+}
+
+.profile-pic i.fa{
+  font-size: 50px;
+}
+.profile-pic{
+  margin-top:10px;
+}
+.profile-detail ul{
+  margin:0;
+  padding:0;
+}
+.profile-detail ul li{
+  list-style: none;
+}
+.footer-bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  padding: 5px;
+  right: 0;
+  left: 0;
+}
+.contact-info .p-splitter-panel-nested{
+  display: inline-block !important;
+}
+.p-accordion .p-accordion-header .p-accordion-header-link {
+  padding: 0.51rem 0.25rem !important;
+  border: 1px solid #f2f2f2 !important;
+  color: #212529;
+  background: none !important;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: box-shadow 0.15s;
+}
+.profile-more-detail{
+  margin:10px 0 0 0;
+}
+.profile-more-detail ul{
+   padding: 0;
+   margin: 0
+}
+.profile-more-detail ul li{
+  list-style: none;
+
+}
+.company-more-info label{
+  display: block;
+    margin: 0;
+    font-weight: bold;
+}
+.company-more-info li{
+  margin-bottom: 10px;
+}

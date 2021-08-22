@@ -1,0 +1,101 @@
+<div class="container-fluid contact-info">
+  <div class="row">
+    <div class="col-md-12">
+      <p-tabView>
+        <p-tabPanel header="Home">
+          Welcome to dashboard
+        </p-tabPanel>
+        <p-tabPanel header="Contact List">
+          Work in Progress
+        </p-tabPanel>
+        <p-tabPanel header="johnson co. ltd." [selected]="true">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="border-whole-left">
+                <div class="profile-pic"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+                <div class="profile-detail">
+                  <ul>
+                    <li>
+                      <h6>johnson co. ltd.</h6>
+                    </li>
+                    <li>609-456-4762</li>
+                    <li><a href="http://jobcloudinc.com">jobcloudinc.com</a></li>
+                  </ul>
+                </div>
+                <div class="profile-more-detail company-more-info">
+                  <p-accordion>
+                    <p-accordionTab header="More Detail">
+                       <ul>
+                         <li><label>Company Domain name</label>jobcloudinc.com</li>
+                         <li><label>Industry</label> Health Care</li>
+                         <li><label>Company Owner</label>John Doe</li>
+                       </ul>
+                    </p-accordionTab>
+
+                </p-accordion>
+                </div>
+                <div class="footer-bottom">
+                  <button class="btn btn-light"><a href="#" ngbTooltip="Notes">
+                    <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+                  </a></button>
+                  <button class="btn btn-light"><a href="#" ngbTooltip="Call">
+                    <i class="fa fa-phone" aria-hidden="true"></i></a>
+                  </button>
+                  <button class="btn btn-light"><a href="#" ngbTooltip="Task">
+                    <i class="fa fa-tasks" aria-hidden="true"></i>
+                  </a></button>
+                  <button class="btn btn-light"><a href="#" ngbTooltip="Meet">
+                    <i class="fa fa-calendar" aria-hidden="true"></i>
+                  </a></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-10 border-whole">
+              <p-splitter [style]="{'height': '300px'}" [panelSizes]="[80,20]">
+                <ng-template pTemplate>
+                  <p-tabView>
+                    <p-tabPanel header="Activities">
+                      Content 1
+                    </p-tabPanel>
+                    <p-tabPanel header="Calls">
+                      Content 2
+                    </p-tabPanel>
+                    <p-tabPanel header="Meetings">
+                      Content 3
+                    </p-tabPanel>
+                    <p-tabPanel header="Tasks">
+                      Content 4
+                    </p-tabPanel>
+                    <p-tabPanel header="Quotes">
+                      Content 5
+                    </p-tabPanel>
+                    <p-tabPanel header="Work Orders">
+                      Content 6
+                    </p-tabPanel>
+                    <p-tabPanel header="Contacts">
+                      Content 7
+                    </p-tabPanel>
+                  </p-tabView>
+                </ng-template>
+                <ng-template pTemplate>
+                  <p-accordion>
+                    <p-accordionTab header="Deals">
+                       Content 1
+                    </p-accordionTab>
+                    <p-accordionTab header="Tickets">
+                        Content 2
+                    </p-accordionTab>
+                    <p-accordionTab header="Attachment">
+                        Content 3
+                    </p-accordionTab>
+                </p-accordion>
+                </ng-template>
+              </p-splitter>
+            </div>
+          </div>
+        </p-tabPanel>
+
+      </p-tabView>
+    </div>
+  </div>
+</div>

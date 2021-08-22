@@ -1,0 +1,53 @@
+<header class="main-header">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <h3 class="logo">CRM Soft</h3>
+    </div>
+    <div class="col-md-6 nav-menu">
+      <div class="btn-group" dropdown #dropdown="bs-dropdown" [autoClose]="false">
+        <button id="button-basic" dropdownToggle type="button"
+           class="btn dropdown-toggle"
+           aria-controls="dropdown-basic">
+           CRM <span class="caret"></span>
+        </button>
+        <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+           role="menu" aria-labelledby="button-basic">
+           <li role="menuitem"><a [routerLink]="['/customers']" class="dropdown-item" href="javascript:void(0)">Customer List</a></li>
+           <li role="menuitem"><a [routerLink]="['/contact-list']" class="dropdown-item" href="javascript:void(0)">Contact List</a></li>
+           <li role="menuitem"><a class="dropdown-item" href="#">Chat</a></li>
+           <li role="menuitem"><a class="dropdown-item" href="#">Search</a></li>
+
+        </ul>
+     </div>
+     <div class="btn-group" dropdown #dropdown="bs-dropdown" [autoClose]="false">
+      <button id="button-basic" dropdownToggle type="button"
+         class="btn  dropdown-toggle"
+         aria-controls="dropdown-basic">
+         Inventory <span class="caret"></span>
+      </button>
+      <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+         role="menu" aria-labelledby="button-basic">
+         <li role="menuitem"><a class="dropdown-item" href="#">Menu1</a></li>
+         <li role="menuitem"><a class="dropdown-item" href="#">Menu2</a></li>
+         <li role="menuitem"><a class="dropdown-item" href="#">Menu3</a></li>
+
+
+      </ul>
+   </div>
+
+          </div>
+
+
+    <div class="col-md-4">
+      <div class="user-info text-right">
+        <ul>
+          <li class="mr-2 notification-header"><i class="fa fa-bell" aria-hidden="true"></i></li>
+          <li class="mr-2"><i class="fa fa-calendar" aria-hidden="true"></i></li>
+          <li class="mr-2"><i class="fa fa-user" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
